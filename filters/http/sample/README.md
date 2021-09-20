@@ -16,11 +16,11 @@ To build the Envoy static binary:
 
 To run the `sample` integration test:
 
-`bazel test //http-filter-example:http_filter_integration_test`
+`bazel test //filters/http/sample:http_filter_integration_test`
 
 ## How it works
 
-See the [network filter example](../README.md#how-it-works).
+See the [network filter example](../../network/README.md#how-it-works).
 
 ## How to write and use an HTTP filter
 

@@ -4,7 +4,7 @@
 
 #include "source/extensions/filters/http/common/pass_through_filter.h"
 
-#include "http-filter-example/http_filter.pb.h"
+#include "filters/http/sample/http_filter.pb.h"
 
 namespace Envoy {
 namespace Http {

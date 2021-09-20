@@ -4,18 +4,10 @@ load(
     "envoy_cc_library",
     "envoy_cc_test",
 )
+
 load("@envoy_api//bazel:api_build_system.bzl", "api_proto_package")
 
 package(default_visibility = ["//visibility:public"])
-
-envoy_cc_binary(
-    name = "envoy",
-    repository = "@envoy",
-    deps = [
-        ":http_filter_config",
-        "@envoy//source/exe:envoy_main_entry_lib",
-    ],
-)
 
 api_proto_package()
 
